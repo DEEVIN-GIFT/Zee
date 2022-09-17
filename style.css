@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.main-container .main {
+    width: 40%;
+    height: 100vh;
+    background-image: url('palmtree.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container .main .odin-head {
+    background: rgba(1, 1, 1, 0.5);
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+
+
+}
+.main-container .main .odin-head .odin-logo{
+    height: 90px;
+    padding-left: 40px;
+}
+
+.main-container .main .odin-text {
+    color: white;
+    font-size: 3em;
+    font-family:cursive;
+    padding-left: 20px;
+
+}
+.main-container .main .link-test{
+    color: white;
+    position: absolute;
+    bottom: 90px;
+    font-size: small;
+}
+.main-container .main .link-test a{
+    display: inline-block;
+    color: white;
+    font-size: small;
+
+}
+.main-container .details{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100vh;
+    overflow: hidden;
+}
+.main-container .details .details-text{
+    padding: 80px 50px;
+    width: 100%;
+    height:29%;
+    background-color: whitesmoke;
+}
+
+    
+.main-container .details .details-text .text{
+    font-style: bold;
+    font-size: 1.463em;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+.main-container .details .details-text .text-sec{
+    font-style:bold;
+    font-size: 1.463em;
+    font-weight: 600;
+}
+
+.main-container .details .sec-details{
+    margin: 20px 50px;
+}
+.main-container .details .sec-details .sec-text{
+    font-style: bold;
+    font-size: 1.463em;
+    font-weight: 600;
+}
+.main-container .details .form .form-field label{
+    display: block;
+    font-size: small;
+    padding: 8px 0;
+}
+.main-container .details .form .form-field{
+    display: flex;
+    width:60%;
+    background-color: white;
+    margin: 0 50px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.main-container .details .form .form-field input{
+    height: 40px;
+    border-color: black;
+    padding: 10px;
+    border-radius: 4px;
+    width: 21rem;
+    margin-right: 30px;
+
+}
+.main-container .details .form .form-field .first-name:focus{
+    outline-color: blue;
+}
+.main-container .details .form .form-field .password:focus{
+    outline-color: red;
+}
+.main-container .details .form .details-last{
+    padding: 50px 50px;
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    box-shadow: 10px 10px 10px 10px rgba(1, 1, 1, 0.5);
+    overflow: hidden;
+}
+.main-container .details .form .details-last .button-btn{
+    padding-bottom: 20px;
+}
+.main-container .details .form .details-last .login .login-text{
+    font-style: bold;
+    font-weight: 700;
+    font-size: 1.256em;
+}
+.main-container .details .form .login .login-link{
+    text-decoration: none;
+    color: #596D48;
+}
+.main-container .details .form .details-last .button-btn .btn{
+    padding: 15px 60px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background-color: #596D48;
+    color: white;
+}
+@font-face{
+    font-family: Norse;
+    src: url(Norse-Bold.otf);
+}
